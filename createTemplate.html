@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create a template with Bootstrap</title>
-    <link rel="stylesheet" href="../bootstrap/bootstrap-local/css/bootstrap.min.css"> <!-- lien vers le fichier bootstrap-->
+    <link rel="stylesheet" href="bootstrap-local/css/bootstrap.css"> <!-- lien vers le fichier bootstrap-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- CDNJS FontAwesome for bootstrap -->
     <link rel="stylesheet" href="css/template.css">
@@ -15,7 +15,197 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    EDW Poissy 2022
+                    <h2>EDW Poissy 2022</h2>
+                </div>
+                <div class="col-md-8">
+                    <ul id="menu" class="float-md-end">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="banner" class="py-5">
+        <!-- to give him padding vertically I use py class -->
+        <div class="container">
+            <div class="row">
+                <div class="col-ig-6">
+                    <div class="banner-title">
+                        <h1 class="title">Some heading</h1>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, itaque.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">Some Heading Goes Here</div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="service-box">
+                    <i class="fas fa-anchor"></i>
+                    <h3>Some Heading</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, ad totam velit nulla ipsa deserunt laudantium at odit possimus quasi.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="service-box">
+                    <i class="fas fa-sailboat"></i>
+                    <h3>Some Heading</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, ad totam velit nulla ipsa deserunt laudantium at odit possimus quasi.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="service-box">
+                    <i class="fas fa-gem"></i>
+                    <h3>Some Heading</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, ad totam velit nulla ipsa deserunt laudantium at odit possimus quasi.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- #testmionials>.container>.row -->
+    <div id="testimonials" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="section-head text-white"> Some Heading Goes</h2>
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Minima cumque molestias dignissimos!</p>
+                        <img src="/img/write-5170935_640.jpg" alt="">
+                        <div class="author">Niamatullah</div>
+                        <div class="author-company">EDW Poissy</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="testimonial">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Minima cumque molestias dignissimos!</p>
+                        <img src="/img/business-2904770_640.jpg" alt="">
+                        <div class="author">Niamatullah</div>
+                        <div class="author-company">EDW Poissy</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="news" class="container section">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-head">
+                    recent news
+                </h2>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="news-post">
+                    <img src="img/post1.jpg" alt="">
+                    <h3><a href="#">News Heading Here</a></h3>
+                    <div class="post-date"><i class="fas fa-calendar-alt"></i>Mai 30, 2022</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatem hic quidem, quibusdam tenetur exercitationem. Repellat optio sit in distinctio.</p>
+                    <a href="#" class="readmore">Read More <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="news-post">
+                    <img src="img/post2.jpg" alt="">
+                    <h3><a href="#">News Heading Here</a></h3>
+                    <div class="post-date"><i class="fas fa-calendar-alt"></i>Mai 30, 2022</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatem hic quidem, quibusdam tenetur exercitationem. Repellat optio sit in distinctio.</p>
+                    <a href="#" class="readmore">Read More <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="news-post">
+                    <img src="img/post3.jpg" alt="">
+                    <h3><a href="#">News Heading Here</a></h3>
+                    <div class="post-date"><i class="fas fa-calendar-alt"></i>Mai 30, 2022</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatem hic quidem, quibusdam tenetur exercitationem. Repellat optio sit in distinctio.</p>
+                    <a href="#" class="readmore">Read More <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="news-post">
+                    <img src="img/post4.jpg" alt="">
+                    <h3><a href="#">News Heading Here</a></h3>
+                    <div class="post-date"><i class="fas fa-calendar-alt"></i>Mai 30, 2022</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatem hic quidem, quibusdam tenetur exercitationem. Repellat optio sit in distinctio.</p>
+                    <a href="#" class="readmore">Read More <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="footer-sidebar">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="footer-widget">
+                        <h4>About company</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="footer-widget">
+                        <h4>Latest News</h4>
+                        <ul>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i>
+                            Lorem ipsum dolor sit amet.</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i>
+                            Lorem ipsum dolor sit amet.</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i>
+                            Lorem ipsum dolor sit amet.</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i>
+                            Lorem ipsum dolor sit amet.</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i>
+                            Lorem ipsum dolor sit amet.</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="footer-widget">
+                        <h4>Company Address</h4>
+                    </div>
+                    <address>
+                        <b>Niamatullah , Inc.</b>
+                        59 place de Corneille Poissy 78300
+                        Tel : 01 20 10 25 12
+                    </address>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">&copy; EDW MA6TVACODER 2022.</div>
+                <div class="col-md-6">
+                    <ul id="social-icons" class="float-md-end">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-github"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
